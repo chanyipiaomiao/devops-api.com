@@ -13,7 +13,15 @@ GET https://devops-api.com/api/v1/queryphone?phone=手机号
 phone: 要查询的手机号
 ```
 
-返回:
+### 设置请求头部
+
+头部名称:   DEVOPS-API-TOKEN
+
+值: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicHVibGljIiwidXBkYXRlVGltZSI6MTUzNTUzMzQ4NH0.JKxOjbtkmZC9FpPPkmF6u6AzBEYJt6m-yYyYr9wmx18
+
+设置好请求头之后,就可以调用API了.
+
+### 返回:
 
 ```
 {

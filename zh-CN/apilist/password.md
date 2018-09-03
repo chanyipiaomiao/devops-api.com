@@ -12,7 +12,15 @@ name         指定多个名称，为多个名称生成密码
 specialChar 是否添加特殊字符(!@#%$*.=)到密码里面 specialChar=yes 添加，其他不添加
 ```
 
-返回:
+### 设置请求头部
+
+头部名称:   DEVOPS-API-TOKEN
+
+值: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicHVibGljIiwidXBkYXRlVGltZSI6MTUzNTUzMzQ4NH0.JKxOjbtkmZC9FpPPkmF6u6AzBEYJt6m-yYyYr9wmx18
+
+设置好请求头之后,就可以调用API了.
+
+### 返回:
 
 ```
 {
